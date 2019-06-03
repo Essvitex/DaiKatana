@@ -1,0 +1,104 @@
+.home-clients-table-container table td{
+    width:290px;
+    height:170px;
+}
+
+.table-container .agogo{
+    width: 279px; height: 40px;
+    background: url(../images/sprite_of_clients.png) -284px -190px;
+}
+
+.table-container .wucksurfing{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:8px;
+    width: 247px; height: 82px;
+    background: url(../images/sprite_of_clients.png) -10px -152px;
+}
+
+.table-container .merck{
+    margin-left:20px;
+    width: 221px; height: 66px;
+    background: url(../images/sprite_of_clients.png) -10px -334px;
+}
+
+.table-container .kidfuly{
+    margin-left:20px;
+    width: 114px; height: 30px;
+    background: url(../images/sprite_of_clients.png) -597px -75px;
+}
+
+.table-container .availendar{
+    margin-left:20px;
+    width: 260px; height: 60px;
+    background: url(../images/sprite_of_clients.png) -10px -254px;
+}
+
+.table-container .orelly{
+    margin-left:20px;
+    width: 228px; height: 60px;
+    background: url(../images/sprite_of_clients.png) -290px -254px;
+}
+
+.table-container .minr{
+    margin-left:70px;
+    width: 126px; height: 104px;
+    background: url(../images/sprite_of_clients.png) -133px -420px;
+}
+
+.table-container .textus{
+    margin-left:20px;
+    width: 180px; height: 45px;
+    background: url(../images/sprite_of_clients.png) -597px -10px;
+}
+
+.table-container .willowtree{
+    margin-left:10px;
+    width: 293px; height: 60px;
+    background: url(../images/sprite_of_clients.png) -284px -10px;
+}
+
+.table-container .tendril{
+    margin-left:20px;
+    width: 230px; height: 41px;
+    background: url(../images/sprite_of_clients.png) -251px -334px;
+}
+
+.table-container .worldreader{
+    margin-left:20px;
+    margin-right:20px;
+    width: 251px; height: 32px;
+    background: url(../images/sprite_of_clients.png) -279px -483px;
+}
+
+.table-container .nuduro{
+    margin-left:20px;
+    width: 189px; height: 36px;
+    background: url(../images/sprite_of_clients.png) -10px -569px;
+}
+
+.table-container .lithespeed{
+    margin-left:20px;
+    width: 254px; height: 122px;
+    background: url(../images/sprite_of_clients.png) -10px -10px;
+}
+
+.table-container .amuze{
+    margin-left:20px;
+    width: 221px; height: 43px;
+    background: url(../images/sprite_of_clients.png) -279px -420px;
+}
+
+.table-container .diningdaily{
+    margin-left:20px;
+    width: 228px; height: 80px;
+    background: url(../images/sprite_of_clients.png) -284px -90px;
+}
+
+.table-container .partybook{
+    margin-left:50px;
+    width: 103px; height: 129px;
+    background: url(../images/sprite_of_clients.png) -10px -420px;
+}
+
+

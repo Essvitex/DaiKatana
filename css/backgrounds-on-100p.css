@@ -1,0 +1,20 @@
+/*This file is intended for full width positioning 
+even when the browser window is scaled.*/
+
+.b100{
+    width:100%;
+    position:absolute;
+    z-index:-1;
+}
+
+#b100-home-blue{
+    background-color:#3e84da;
+    height:1800px;
+    top:870px;
+}
+
+#b100-home-gray{
+    background-color:#ece6d8;
+    height:800px;
+    top:2570px;
+}

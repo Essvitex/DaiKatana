@@ -1,0 +1,410 @@
+*{margin:0; padding:0; border:0; outline: 0; list-style-type: none;}
+
+body{
+    font-family: 'Mandali', sans-serif;
+}
+
+.wrapper{
+    width:1600px;
+    margin: 0 auto;
+}
+
+.header-container{
+    height:250px;
+}
+
+.header-container>a{
+    color:black;
+}
+.header-navigation{
+    float:left;
+    margin-left:500px;
+    margin-top: 60px;
+}
+
+.header-navigation li{
+    float:left;
+}
+
+.header-navigation li a{
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 48px;
+    text-decoration:none; /*del underlines*/
+    padding:0 20px;
+    color:black;
+    display:block;
+}
+
+.header-navigation li .contact-us{
+    margin-left:25px;
+    width: 100px;
+    height: 45px;
+    border-radius:22px;
+    border:1px solid #3e84da;
+    text-align:center;
+}
+
+.header-navigation li a:hover{
+    border-bottom: 1px solid #3e84da;
+}
+
+.header-navigation li .contact-us:hover{
+    background-color:#3e84da;
+    color:white;
+}
+
+#DaiKatana{
+    float:left;
+    font-size:30px;
+}
+
+.header-container #DaiKatana{
+    margin-left:130px;
+    margin-top:45px;
+}
+
+#DaiKatana .blue-Katana{
+    color:#3e84da;
+}
+
+.home-main-content .content-container{
+    height:620px;
+    margin-left:340px;
+}
+
+.home-main-content .content-container .radically{
+    font-size:70px;
+    white-space: pre-line;
+    margin-bottom:50px;
+}
+
+.home-main-content .content-container .radically span{
+    background-color:#3e84da;
+    color:white;
+    width:520px;
+}
+
+.home-main-content .scroll{
+    padding-top: 60px;
+    padding-left:400px;
+}
+
+.home-main-content .scroll-p{
+    margin-left:340px;
+    width:300px;
+    height:200px;
+}
+
+.home-clients-container{
+    height:1700px;
+    background-color:#3e84da;
+    color:white;
+}
+
+.home-clients-container .top{
+    padding-top:120px;
+    height:350px;
+    width:700px;
+    margin-left:410px;
+}
+
+.home-clients-container .top>p{
+    text-align:center;
+    white-space:pre-line;
+    font-size:22px;
+}
+
+.home-clients-container .top>header>h2{
+    text-align:center;
+    font-size:30px;
+}
+
+.home-clients-table-container{
+    height:800px;
+}
+
+.home-clients-table-container .table-container{
+    width:800px;
+    height:800px;
+    margin-left:370px;
+}
+
+.home-clients-table-container h2{
+    text-align:center;
+    font-size:28px;
+    margin-right:20px;
+}
+
+.home-clients-container .left-hr{
+    border: none;
+    background-color: #3673bd;
+    height: 1px;
+    width:400px;
+    margin-left:-200px;
+    margin-top:-23px;
+}
+
+.home-clients-container .right-hr{
+    border: none;
+    background-color: #3673bd;
+    height: 1px;
+    width:400px;
+    margin-left:580px;
+}
+
+.home-clients-table-container table{
+    margin-top:70px;
+    margin-left:-170px;
+    text-align:center;
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+}
+
+.home-clients-table-container table td{
+
+    border: 1px solid #3673bd; 
+}
+
+.home-clients-container table .first-tr td{
+    border-top:none;
+}
+
+.home-clients-container table .first-tr td:nth-child(1){
+    border-left:none;
+}
+
+.home-clients-container table .first-tr td:last-child{
+    border-right:none;
+}
+
+.home-clients-container table .fourth-tr td{
+    border-bottom:none;
+}
+
+.home-clients-container table .fourth-tr td:nth-child(1){
+    border-left:none;
+}
+
+.home-clients-container table .fourth-tr td:last-child{
+    border-right:none;
+}
+
+.home-clients-container table .middle-trs td:nth-child(1){
+    border-left:none;
+}
+
+.home-clients-container table .middle-trs td:last-child{
+    border-right:none;
+}
+
+.home-conversation-question{
+    margin-top:130px;
+    height: 500px;
+}
+
+.home-conversation-question .conversation{
+    width:500px;
+    margin-left:500px;
+    font-size:22px;
+}
+
+.home-conversation-question .conversation header>h2{
+    text-align:center;
+}
+
+.home-conversation-question .conversation div{
+    padding-left:110px;
+    margin-top:35px;
+}
+
+.home-conversation-question .conversation div a{
+    display:block;
+    text-decoration:none;
+    border-radius:22px;
+    border:1px solid white;
+    color:white;
+    width:140px;
+    height:40px;
+    text-align:center;
+    line-height:37px;
+    font-size:16px;
+    margin-left:70px;
+}
+
+.home-conversation-question .conversation div a:hover{
+    background-color:white;
+    color:#3e84da;
+}
+
+.home-experience-container{
+    height:800px;
+    background-color:#ece6d8;
+}
+
+.home-experience-container .experience{
+    padding-top:100px;
+    margin-left:420px;
+    height:800px;
+    width:650px;
+}
+
+.home-experience-container .experience>header{
+    text-align:center;
+    font-size:30px;
+    font-weight:300px;
+}
+
+.home-experience-container .experience>p{
+    text-align:center;
+    white-space: pre-line;
+    font-size:22px;
+}
+
+.home-experience-container .experience .conversation{
+    padding-top:100px;
+    font-size:22px;
+}
+
+.home-experience-container .experience header>h2{
+    text-align:center;
+}
+
+.home-experience-container .experience .conversation div{
+    padding-left:180px;
+    margin-top:25px;
+}
+
+.home-experience-container .experience .conversation div a{
+    display:block;
+    text-decoration:none;
+    border-radius:22px;
+    border:1px solid #3e84da;
+    color:black;
+    width:140px;
+    height:40px;
+    text-align:center;
+    line-height:37px;
+    font-size:16px;
+    margin-left:70px;
+}
+
+.home-experience-container .experience .conversation div a:hover{
+    background-color:#3e84da;
+    color:#ece6d8;
+}
+
+.home-footer-container{
+    height:100px;
+}
+
+.home-footer-container #DaiKatana{
+    margin-left:530px;
+    margin-top:20px;
+}
+
+.home-footer-container .footer-navigation ul{
+    width:500px;
+    height:45px;
+    margin-left:730px;
+    padding-top:27px;
+}
+
+.home-footer-container .footer-navigation li{
+    float:left;
+}
+
+.home-footer-container .footer-navigation li a{
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration:none;
+    padding:0 20px;
+    line-height:48px;
+    color:black;
+    display:block;
+}
+
+.home-footer-container .footer-navigation li a:hover{
+    border-bottom: 1px solid #3e84da;
+}
+
+/*work.html*/
+
+/*.header-navigation-work{
+    float:right;
+    width:590px;
+}*/
+
+.work-main-content{
+    
+}
+.work-main-content .our-work{
+    text-align:center;
+}
+
+.work-main-content .our-work header{
+    font-size:27px;
+    color:#3e84da;
+    margin-bottom:-40px;
+}
+
+.work-main-content .our-work .text{
+    white-space: pre-line;
+    font-size:20px;
+    margin-bottom:150px;
+}
+
+.work-main-content .work-gallery{
+    min-height:2120px;
+    width:100%;
+}
+
+.work-main-content .work-gallery ul li{
+    float:left;
+    width:33.37%;
+    height:530px;
+    /*background-color:yellow;*/
+    margin-left:-1px;
+}
+
+.work-gallery ul li:nth-child(2n){
+    /*background-color:blue*/
+    padding-left:0px;
+}
+
+.work-main-content .home-experience-container{
+    height:420px;
+}
+
+.work-main-content .experience{
+    height:400px;
+    width:100%;
+    margin-left:0px;
+    margin-left:-300px;
+}
+
+.work-main-content .experience .conversation div{
+   padding-left:0px;
+}
+
+.work-main-content .experience .conversation div a{
+    margin-left: 43%;
+}
+
+.work-main-content .home-experience-container .conversation{
+    margin-top:-100px;
+    margin-left:600px;
+}
+
+.work-footer-container{
+    text-align:center;
+}
+
+.work-footer-container #DaiKatana{
+    margin-left:0px;
+    margin-left:37%;
+}
+
+.work-footer-container .footer-navigation ul{
+    margin-left:0px;
+    margin-left:50%; 
+}
