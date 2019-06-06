@@ -161,7 +161,6 @@ body{
 }
 
 .home-clients-table-container table td{
-
     border: 1px solid #3673bd; 
 }
 
@@ -329,14 +328,6 @@ body{
 
 /*work.html*/
 
-/*.header-navigation-work{
-    float:right;
-    width:590px;
-}*/
-
-.work-main-content{
-    
-}
 .work-main-content .our-work{
     text-align:center;
 }
@@ -353,22 +344,33 @@ body{
     margin-bottom:150px;
 }
 
-.work-main-content .work-gallery{
-    min-height:2120px;
-    width:100%;
+.work-main-content .work-gallery ul{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
 }
 
 .work-main-content .work-gallery ul li{
-    float:left;
-    width:33.37%;
+    position:relative;
+    background: #000000;
+    z-index: 3;
+    width:530px;
     height:530px;
-    /*background-color:yellow;*/
     margin-left:-1px;
+    -webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
 }
 
 .work-gallery ul li:nth-child(2n){
-    /*background-color:blue*/
     padding-left:0px;
+}
+
+.work-gallery img{
+    opacity:0.85;
+}
+
+.work-gallery img:hover{
+    opacity:1;
 }
 
 .work-main-content .home-experience-container{
@@ -408,3 +410,176 @@ body{
     margin-left:0px;
     margin-left:50%; 
 }
+
+/*contact*/
+
+#cu{
+    background-color:#3e84da;
+    color:white;
+}
+
+#cu:hover{
+    background-color:white;
+    color:#3e84da;
+}
+
+.contact-main-content .content-container{
+    background-color:#3e84da;
+    height:900px;
+    margin-top:-30px;
+}
+
+.contact-main-content .to-talk{
+    padding-top:120px;
+    text-align:center;
+    color:white;
+}
+
+.contact-main-content .to-talk header{
+    font-size:27px;
+    margin-bottom:-40px;
+}
+
+.contact-main-content .to-talk .text{
+    white-space: pre-line;
+    font-size:20px;
+}
+
+.contact-main-content .input-container form{
+    padding-top:100px;
+    height:750px;
+    width:700px;
+    margin-left:450px;
+}
+
+.contact-main-content .input-container form .flex-form{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-main-content .input-container input{
+    height:40px;
+    width:278px;
+    font-family: 'Mandali', sans-serif;
+    padding-left:10px;
+}
+
+.contact-main-content .input-container input[type="email"]{
+    margin-left:25px;
+}
+
+.contact-main-content .input-container textarea{
+    margin-top:30px;
+    padding-top:10px;
+    width:590px;
+    resize:none;
+    font-family: 'Mandali', sans-serif;
+    padding-left:10px;
+}
+
+.contact-main-content .input-container input[type="submit"]{
+    margin-top:20px;
+    width:110px;
+    height:35px;
+    background-color:#3e84da;
+    border:1px solid white;
+    color:white;
+    border-radius:25px;
+    padding-right:5px;
+    
+}
+
+.contact-main-content .input-container input[type="submit"]:hover{
+    background-color:white;
+    color:#3e84da;
+}
+
+.contact-main-content .contact-us-container{
+    height:300px;
+    width:1100px;
+    margin-left:250px;
+    margin-top:80px;
+    font-style:normal;
+    
+}
+
+.contact-main-content .contact-us-container header{
+    font-weight: lighter;
+    font-size:25px;
+}
+
+.contact-main-content .contact-us-container .container{
+    margin-top:80px;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.contact-main-content .contact-us-container .container div{
+    margin-right:230px;
+}
+
+.contact-main-content .contact-us-container .container span{
+    font-size:18px;
+}
+
+.contact-main-content .contact-us-container .container p{
+    color:#3e84da;
+    width:300px;
+}
+
+.contact-main-content .contact-us-container .container2 p{
+    color:black;
+}
+
+.contact-main-content .contact-us-container .container2 span{
+    color:#3e84da;
+}
+
+.map-of-place{
+    margin-top:100px;
+    height:600px;
+}
+
+.find-more{
+    height:600px;
+    background-color:#ece6d8;
+}
+
+.find-more .container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+}
+
+.find-more .container header{
+    font-size:22px;
+}
+
+.find-more .container p{
+    margin-top:25px;
+}
+
+.find-more .container p a{
+    display:inline-block;
+    margin-left:20px;
+    margin-right:20px;
+    width: 150px;
+    height: 35px;
+    border-radius:22px;
+    border:1px solid #3e84da;
+    text-align:center;
+    padding-top:3px;
+    text-decoration:none;
+    color:black;
+}
+
+.find-more .container a:hover{
+    background-color:#3e84da;
+    color:white;
+}
+

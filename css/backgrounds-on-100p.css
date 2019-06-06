@@ -18,3 +18,39 @@ even when the browser window is scaled.*/
     height:800px;
     top:2570px;
 }
+
+#b100-contact-blue{
+    background-color:#3e84da;
+    height:900px;
+    top:220px;
+}
+
+#b100-contact-gray{
+    background-color:#ece6d8;
+    height:600px;
+    top:2580px;
+}
+
+#b100-contact-blue{
+    background-color:#3e84da;
+    height:600px;
+    top:1980px;
+}
+
+#b100-contact-blue2{
+    background-color:#3e84da;
+    height:930px;
+    top:200px;
+}
+
+#b100-work-gray{
+    background-color:#ece6d8;
+    height:420px;
+    top:2720px;
+}
+
+#b100-work-blue{
+    background-color:#3e84da;
+    height:2120px;
+    top:600px;
+}
