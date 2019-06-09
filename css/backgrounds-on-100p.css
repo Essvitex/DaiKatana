@@ -54,3 +54,30 @@ even when the browser window is scaled.*/
     height:2120px;
     top:600px;
 }
+
+/*Небольшие ноутбуки ----------- */
+@media only screen  and (max-width: 1600px){/*работает от 1200px по ширине*/
+    #b100-home-blue{
+        background-color:#3e84da;
+        height:1550px;
+        top:750px;
+    }
+    
+    #b100-home-gray{
+        background-color:#ece6d8;
+        height:600px;
+        top:2300px;
+    }
+
+    #b100-contact-blue2{
+        background-color:#3e84da;
+        height:900px;
+        top:220px;
+    }
+
+    #b100-work-gray{
+        background-color:#ece6d8;
+        height:220px;
+        top:3247px;
+    }
+}

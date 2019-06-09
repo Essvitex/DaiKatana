@@ -583,3 +583,260 @@ body{
     color:white;
 }
 
+
+
+
+/* Небольшие ноутбуки ----------- */
+@media only screen  and (max-width: 1600px){/*адаптивно работает от 1200px по ширине*/
+    .wrapper{
+        width:1200px;
+    }
+
+    /*home*/
+
+    .header-navigation{
+        margin-left:350px;
+        margin-top: 60px;
+    }
+
+    .header-navigation li a{
+        font-size:15px;
+    }
+
+    .header-navigation li .contact-us{
+        width:75px;
+        height:35px;
+        line-height:28px;
+        padding-top:10px;
+    }
+
+    .home-main-content .content-container .radically{
+        font-size:45px;
+    }
+
+    .home-main-content .content-container{
+        height:500px;
+    }
+
+    .home-main-content .scroll{
+        padding-top: 60px;
+        padding-left:230px;
+    }
+    
+    .home-main-content .scroll-p{
+        margin-left:170px;
+        width:300px;
+        height:200px;
+    }
+    
+    .home-clients-container{
+        height:1550px;
+        background-color:#3e84da;
+        color:white;
+    }
+    
+    .home-clients-container .top{
+        padding-top:50px;
+        height:350px;
+        width:500px;
+        margin-left:350px;
+    }
+    
+    .home-clients-container .top>p{
+        text-align:center;
+        white-space:pre-line;
+        font-size:17px;
+    }
+    
+    .home-clients-container .top>header>h2{
+        text-align:center;
+        font-size:24px;
+    }
+    
+    .home-clients-table-container{
+        height:600px;
+    }
+    
+    .home-clients-table-container .table-container{
+        width:800px;
+        height:800px;
+        margin-left:220px;
+    }
+    
+    .home-clients-table-container h2{
+        text-align:center;
+        font-size:23px;
+        margin-right:60px;
+    }
+    
+    .home-clients-container .left-hr{
+        border: none;
+        background-color: #3673bd;
+        height: 1px;
+        width:250px;
+        margin-left:-50px;
+        margin-top:-18px;
+    }
+    
+    .home-clients-container .right-hr{
+        border: none;
+        background-color: #3673bd;
+        height: 1px;
+        width:250px;
+        margin-left:530px;
+    }
+    
+    .home-clients-table-container table{
+        margin-top:60px;
+    }
+    
+    .home-conversation-question{
+        margin-top:330px;
+        height: 300px;
+    }
+    
+    .home-conversation-question .conversation{
+        width:700px;
+        margin-left:100px;
+        font-size:16px;
+    }
+    
+    .home-conversation-question .conversation header>h2{
+        text-align:center;
+        margin-left:300px;
+    }
+    
+    .home-conversation-question .conversation div{
+        padding-left:350px;
+        margin-top:35px;
+    }
+    
+    .home-conversation-question .conversation div a{
+        width:120px;
+        height:30px;
+        text-align:center;
+        line-height:30px;
+        font-size:13px;
+        margin-left:70px;
+    }
+    
+    .home-experience-container{
+        height:600px;
+    }
+    
+    .home-experience-container .experience{
+        padding-top:-30px;
+        margin-left:270px;
+        height:800px;
+        width:650px;
+    }
+    
+    .home-experience-container .experience>header{
+        font-size:20px;
+    }
+    
+    .home-experience-container .experience>p{
+        font-size:16px;
+    }
+    
+    .home-experience-container .experience .conversation{
+        padding-top:50px;
+        font-size:16px;
+    }
+    
+    .home-experience-container .experience header>h2{
+        text-align:center;
+    }
+    
+    .home-experience-container .experience .conversation div{
+        padding-left:180px;
+        margin-top:15px;
+    }
+    
+    .home-experience-container .experience .conversation div a{
+        width:120px;
+        height:30px;
+        line-height:30px;
+        font-size:13px;
+    }
+    
+    .home-footer-container{
+        height:100px;
+    }
+    
+    .home-footer-container #DaiKatana{
+        margin-left:450px;
+        margin-top:20px;
+    }
+    
+    .home-footer-container .footer-navigation ul{
+        width:450px;
+        height:45px;
+        margin-left:630px;
+        padding-top:27px;
+    }
+
+    .home-footer-container .footer-navigation li a{
+        font-size: 15px;
+    }
+
+    /*contact*/
+    
+    .contact-main-content .input-container form{
+        margin-left:250px;
+    }
+    
+    .contact-main-content .contact-us-container{
+        width:800px;
+        margin-left:250px;
+    }
+    
+    .contact-main-content .contact-us-container header{
+        font-size:20px;
+    }
+    
+    .contact-main-content .contact-us-container .container div{
+        margin-right:50px;
+    }
+    
+    .contact-main-content .contact-us-container .container span{
+        font-size:13px;
+    }
+    
+    .contact-main-content .contact-us-container .container p{
+        color:#3e84da;
+        width:200px;
+        font-size:13px;
+    }
+
+    /*work*/
+    
+    .work-main-content .experience{
+        
+        margin-left:-30px;
+        width:800px;
+    }
+
+    .work-main-content .experience .conversation div a{
+        margin-left: -10px;
+    }
+    
+    .work-main-content .home-experience-container .conversation{
+        margin-top:-100px;
+        margin-left:300px;
+    }
+
+    .work-main-content .home-experience-container{
+        height:220px;
+    }
+    
+    .work-main-content .experience{
+        height:200px;
+    }
+
+    .work-footer-container #DaiKatana{
+        margin-right:150px;
+    }
+
+
+}
